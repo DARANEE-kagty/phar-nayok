@@ -1,0 +1,212 @@
+{
+  "site_info": {
+    "organization": "กลุ่มงานเภสัชกรรม โรงพยาบาลนครนายก",
+    "portal_name": "Pharmacy Portal Gateway",
+    "version": "1.0.0",
+    "last_updated": "2026-10-30"
+  },
+  "categories": [
+    {
+      "id": "all",
+      "name": "ทั้งหมด",
+      "icon": "fa-solid fa-border-all"
+    },
+    {
+      "id": "clinical_tools",
+      "name": "เครื่องมือคลินิก & คำนวณยา",
+      "icon": "fa-solid fa-calculator"
+    },
+    {
+      "id": "formulary",
+      "name": "คู่มือ & ข้อมูลยา (DIS)",
+      "icon": "fa-solid fa-book-medical"
+    },
+    {
+      "id": "safety",
+      "name": "ความปลอดภัย & ยา HAD",
+      "icon": "fa-solid fa-shield-halved"
+    },
+    {
+      "id": "opd_ipd",
+      "name": "บริการจ่ายยา (OPD / IPD)",
+      "icon": "fa-solid fa-pills"
+    },
+    {
+      "id": "stock",
+      "name": "คลังยา & เวชภัณฑ์",
+      "icon": "fa-solid fa-boxes-stacked"
+    },
+    {
+      "id": "admin",
+      "name": "งานบริหาร & ตารางเวร",
+      "icon": "fa-solid fa-calendar-days"
+    }
+  ],
+  "links": [
+    {
+      "id": "formulary-online",
+      "title": "คู่มือบัญชียาโรงพยาบาลนครนายก (Online Formulary)",
+      "description": "สืบค้นรายการยา บัญชียาหลักแห่งชาติ ขนาดยา เงื่อนไขการสั่งใช้ และยาช่วยชีวิตฉุกเฉิน",
+      "url": "https://sites.google.com/view/pharmnayok-formulary",
+      "category": "formulary",
+      "keywords": ["formulary", "บัญชียา", "รายการยา", "ยาหลัก", "ขนาดยา", "drug list", "สูตรยา"],
+      "restricted": false,
+      "featured": true,
+      "icon": "fa-solid fa-book-medical"
+    },
+    {
+      "id": "had-guidelines",
+      "title": "แนวทางติดตามยาความเสี่ยงสูง (High Alert Drugs)",
+      "description": "เกณฑ์ความปลอดภัย ฉลากเตือน ข้อควรระวัง และวิธีบริหารยากลุ่ม HAD 29 รายการ",
+      "url": "https://sites.google.com/view/pharmnayok-had",
+      "category": "safety",
+      "keywords": ["had", "high alert drugs", "ยาความเสี่ยงสูง", "แนวทาง", "ความปลอดภัย", "คู่มือยา", "heparin", "insulin"],
+      "restricted": false,
+      "featured": true,
+      "icon": "fa-solid fa-triangle-exclamation"
+    },
+    {
+      "id": "pedidose-calc",
+      "title": "Pedidose Calculator (โปรแกรมคำนวณขนาดยาเด็ก)",
+      "description": "คำนวณขนาดยาน้ำ ยาปฏิชีวนะ และยาฉีดตามน้ำหนักตัวและอายุของผู้ป่วยเด็ก",
+      "url": "https://sites.google.com/view/pharmnayok-pedidose",
+      "category": "clinical_tools",
+      "keywords": ["pedidose", "ยาเด็ก", "คำนวณยา", "pediatric", "dose calculator", "น้ำหนักตัว", "กุมาร"],
+      "restricted": false,
+      "featured": true,
+      "icon": "fa-solid fa-baby"
+    },
+    {
+      "id": "renaldose-calc",
+      "title": "Renal Dose Adjustment (คำนวณปรับขนาดยาตามการทำงานของไต)",
+      "description": "คำนวณค่า CrCl ตามสูตร Cockcroft-Gault และแนะนำแนวทางปรับขนาดยาในผู้ป่วยไตบกพร่อง",
+      "url": "https://sites.google.com/view/pharmnayok-renaldose",
+      "category": "clinical_tools",
+      "keywords": ["renal", "crcl", "โรคไต", "ปรับขนาดยา", "cockcroft-gault", "creatinine", "kidney", "ไต"],
+      "restricted": false,
+      "featured": true,
+      "icon": "fa-solid fa-calculator"
+    },
+    {
+      "id": "smart-iv-inject",
+      "title": "Smart IV Inject & Compatibility Chatbot",
+      "description": "ระบบตรวจสอบความเข้ากันได้ของยาฉีด สารน้ำที่เข้ากันได้ และอัตราการให้ยาทางหลอดเลือดดำ",
+      "url": "https://line.me/R/ti/p/@smart-iv-pharm",
+      "category": "clinical_tools",
+      "keywords": ["iv inject", "ความเข้ากันได้", "สารน้ำ", "compatibility", "ยาฉีด", "chatbot", "iv dilution", "ผสมยา"],
+      "restricted": false,
+      "featured": true,
+      "icon": "fa-solid fa-syringe"
+    },
+    {
+      "id": "adr-me-report",
+      "title": "ระบบรายงานแพ้ยาและคลาดเคลื่อนทางยา (ADR & ME System)",
+      "description": "แบบฟอร์มบันทึกและสืบค้นประวัติการแพ้ยา บัตรแพ้ยา และรายงานอุบัติการณ์ความคลาดเคลื่อนทางยา",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSc-mock-adr/viewform",
+      "category": "safety",
+      "keywords": ["adr", "แพ้ยา", "me", "medication error", "อุบัติการณ์", "ความคลาดเคลื่อน", "รายงาน", "บัตรแพ้ยา"],
+      "restricted": true,
+      "featured": true,
+      "icon": "fa-solid fa-shield-halved"
+    },
+    {
+      "id": "ipd-paperless-tracker",
+      "title": "ระบบติดตามใบสั่งยาผู้ป่วยใน (IPD Medication Tracker)",
+      "description": "ติดตามสถานะการจัด-จ่ายยาหอผู้ป่วยแบบเรียลไทม์ และแจ้งเตือนยา Stat / ยาด่วนประจำตึก",
+      "url": "https://script.google.com/macros/s/mock-ipd-portal/exec",
+      "category": "opd_ipd",
+      "keywords": ["ipd", "ผู้ป่วยใน", "หอผู้ป่วย", "ใบสั่งยา", "สถานะยา", "stat", "ward", "ตึกผู้ป่วย"],
+      "restricted": true,
+      "featured": false,
+      "icon": "fa-solid fa-bed-pulse"
+    },
+    {
+      "id": "opd-queue-dashboard",
+      "title": "Dashboard คิวและระยะเวลารอคอยห้องยา OPD",
+      "description": "สถิติระยะเวลารอคอยรับยาเฉลี่ย และสถานะคิวจ่ายยาแบบเรียลไทม์ห้องจ่ายยาผู้ป่วยนอก",
+      "url": "https://lookerstudio.google.com/reporting/mock-opd-queue",
+      "category": "opd_ipd",
+      "keywords": ["opd", "คิว", "ผู้ป่วยนอก", "เวลารอคอย", "queue", "dashboard", "ห้องยา", "รอรับยา"],
+      "restricted": false,
+      "featured": false,
+      "icon": "fa-solid fa-users"
+    },
+    {
+      "id": "due-protocol",
+      "title": "แบบฟอร์มและแนวทางกำกับการใช้ยาปฏิชีวนะ (DUE Protocols)",
+      "description": "เกณฑ์ขออนุมัติยากลุ่มควบคุมพิเศษ (Ceftazidime/Avibactam, Colistin, Meropenem) พร้อมแบบฟอร์มดาวน์โหลด",
+      "url": "https://sites.google.com/view/pharmnayok-due",
+      "category": "safety",
+      "keywords": ["due", "antibiotics", "ยาปฏิชีวนะ", "colistin", "meropenem", "ceftazidime", "แบบฟอร์ม", "ขออนุมัติยา"],
+      "restricted": true,
+      "featured": false,
+      "icon": "fa-solid fa-file-signature"
+    },
+    {
+      "id": "drug-stock-status",
+      "title": "ระบบสืบค้นสถานะคลังยาและรายการยาขาดคราว",
+      "description": "ตรวจสอบยอดคงเหลือยาเวชภัณฑ์ รายการยาใกล้หมด และแนวทางใช้ยาทางเลือกทดแทนยาขาดคราว",
+      "url": "https://sites.google.com/view/pharmnayok-stock",
+      "category": "stock",
+      "keywords": ["คลังยา", "ยาขาด", "สต็อกยา", "เวชภัณฑ์", "stock", "shortage", "ยาสำรอง", "เบิกยา"],
+      "restricted": true,
+      "featured": false,
+      "icon": "fa-solid fa-boxes-stacked"
+    },
+    {
+      "id": "smart-temp-alert",
+      "title": "ระบบตรวจวัดอุณหภูมิตู้เย็นเก็บยา (Smart Temperature Alert)",
+      "description": "ติดตามอุณหภูมิและความชื้นของตู้เย็นเก็บยาและวัคซีนตลอด 24 ชั่วโมง พร้อมระบบแจ้งเตือน Line Alert",
+      "url": "https://dashboard.pharmnayok.org/temp-monitor",
+      "category": "stock",
+      "keywords": ["ตู้เย็น", "อุณหภูมิ", "วัคซีน", "cold chain", "temp", "alert", "ตู้ยา", "ความชื้น"],
+      "restricted": true,
+      "featured": false,
+      "icon": "fa-solid fa-temperature-arrow-down"
+    },
+    {
+      "id": "chemo-compounding-sop",
+      "title": "คู่มือปฏิบัติงานผสมยาเคมีบำบัด (Chemotherapy SOP)",
+      "description": "ขั้นตอนการเตรียมยาเคมีบำบัด เทคนิคปลอดเชื้อ การป้องกันการปนเปื้อน และชุดอุปกรณ์ Spill Kit",
+      "url": "https://drive.google.com/drive/folders/mock-chemo-sop",
+      "category": "formulary",
+      "keywords": ["chemo", "เคมีบำบัด", "ผสมยา", "sop", "ขั้นตอน", "cytotoxic", "spill kit", "ความปลอดภัย"],
+      "restricted": true,
+      "featured": false,
+      "icon": "fa-solid fa-flask-vial"
+    },
+    {
+      "id": "duty-schedule",
+      "title": "ตารางเวรปฏิบัติการและรายชื่อเภสัชกรผู้ประสานงาน",
+      "description": "ตารางปฏิบัติงานนอกเวลาราชการ (เวรผลัด) ตาราง OT และเบอร์โทรศัพท์ติดต่อเภสัชกรประจำจุด",
+      "url": "https://docs.google.com/spreadsheets/d/mock-duty-schedule/edit",
+      "category": "admin",
+      "keywords": ["ตารางเวร", "เวร", "รายชื่อ", "เบอร์โทร", "schedule", "duty", "โอที", "ot", "ติดต่อ"],
+      "restricted": true,
+      "featured": true,
+      "icon": "fa-solid fa-calendar-days"
+    },
+    {
+      "id": "dis-faq-database",
+      "title": "คลังตอบคำถามทางเภสัชสนเทศ (DIS FAQ Database)",
+      "description": "รวมคำถาม-คำตอบการใช้ยาที่พบบ่อย เช่น การบดยา, การบริหารยาทางสายยาง NG Tube และข้อห้ามใช้",
+      "url": "https://sites.google.com/view/pharmnayok-dis-faq",
+      "category": "formulary",
+      "keywords": ["dis", "เภสัชสนเทศ", "faq", "บดยา", "ng tube", "ตอบคำถามยา", "คำถามที่พบบ่อย", "บริหารยา"],
+      "restricted": false,
+      "featured": false,
+      "icon": "fa-solid fa-circle-question"
+    },
+    {
+      "id": "ha-gpp-accreditation",
+      "title": "คลังเอกสารมาตรฐาน HA & GPP โรงพยาบาลนครนายก",
+      "description": "รวมแบบประเมินตนเอง ตัวชี้วัดคุณภาพทางเภสัชกรรม (KPIs) และเอกสารรับรองมาตรฐานระบบยา",
+      "url": "https://drive.google.com/drive/folders/mock-ha-gpp",
+      "category": "admin",
+      "keywords": ["ha", "gpp", "มาตรฐาน", "kpi", "คุณภาพ", "ประเมินตนเอง", "accreditation", "รับรอง"],
+      "restricted": true,
+      "featured": false,
+      "icon": "fa-solid fa-award"
+    }
+  ]
+}

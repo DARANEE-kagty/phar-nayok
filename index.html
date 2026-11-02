@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>กลุ่มงานเภสัชกรรม โรงพยาบาลนครนายก | Pharmacy Department Gateway</title>
+  <meta name="description" content="หน้าแรก กลุ่มงานเภสัชกรรม โรงพยาบาลนครนายก วิสัยทัศน์ พันธกิจ โครงสร้างกลุ่มงาน นโยบายยา และประกาศข่าวสารระบบยา">
+  
+  <!-- Google Fonts: Sarabun -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 1. Header with Hospital Brand & Contact Quick Badge -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <!-- Brand / Logo -->
+        <a href="index.html" class="brand-section">
+          <img src="assets/images/logo.png" alt="ตราสัญลักษณ์กลุ่มงานเภสัชกรรม โรงพยาบาลนครนายก" class="brand-logo" onerror="this.src='assets/images/rx-logo.png'">
+          <div class="brand-info">
+            <h1>กลุ่มงานเภสัชกรรม</h1>
+            <p>โรงพยาบาลนครนายก • Pharmacy Department</p>
+          </div>
+        </a>
+
+        <!-- Official Contact Badge -->
+        <div class="header-contact-badge">
+          <div class="h-badge-icon"><i class="fa-solid fa-hospital-user"></i></div>
+          <div class="h-badge-text">
+            <span class="h-badge-label">บริการระบบยา รพ.นครนายก</span>
+            <span class="h-badge-val">โทรภายใน: OPD(324, 325), IPD(122)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Top Navigation Bar with 7 Dropdown Menus (เชื่อมโยงไปยัง Google Sites) -->
+  <nav class="shortcuts-nav-wrapper" aria-label="เมนูทางลัดระบบ">
+    <div class="container">
+      <div class="shortcuts-nav-bar">
+        
+        <!-- 1. หน้าแรก -->
+        <div class="nav-item">
+          <a href="index.html" class="nav-btn active">
+            <i class="fa-solid fa-house"></i>
+            <span>หน้าแรก</span>
+          </a>
+        </div>
+
+        <!-- 2. เกี่ยวกับกลุ่มงาน -->
+        <div class="nav-item has-dropdown">
+          <button type="button" class="nav-btn" aria-expanded="false">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>เกี่ยวกับกลุ่มงาน</span>
+            <i class="fa-solid fa-chevron-down caret-icon"></i>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="#visionMissionSection" class="dropdown-link"><i class="fa-solid fa-eye"></i> วิสัยทัศน์ & พันธกิจ</a>
+            <a href="#visionMissionSection" class="dropdown-link"><i class="fa-solid fa-bullseye"></i> เป้าหมาย & เข็มมุ่ง</a>
+            <a href="#structureSection" class="dropdown-link"><i class="fa-solid fa-sitemap"></i> โครงสร้างกลุ่มงาน</a>
+            <a href="#policySection" class="dropdown-link"><i class="fa-solid fa-shield-halved"></i> นโยบายด้านยา</a>
+            <a href="#footerContact" class="dropdown-link"><i class="fa-solid fa-address-book"></i> ติดต่อเรา (เบอร์ภายใน)</a>
+          </div>
+        </div>
+
+        <!-- 3. งานบริการ -->
+        <div class="nav-item has-dropdown">
+          <button type="button" class="nav-btn" aria-expanded="false">
+            <i class="fa-solid fa-pills"></i>
+            <span>งานบริการ</span>
+            <i class="fa-solid fa-chevron-down caret-icon"></i>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="https://sites.google.com/view/phar-nayok/งานบริการ/งานเภสัชกรรมผู้ป่วยนอก" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-hospital-user"></i> งานจ่ายยาผู้ป่วยนอก (OPD)</a>
+            <a href="https://sites.google.com/view/phar-nayok/งานบริการ/งานเภสัชกรรมผู้ป่วยใน" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-bed-pulse"></i> งานจ่ายยาผู้ป่วยใน (IPD)</a>
+            <a href="https://sites.google.com/view/phar-nayok/งานบริการ/งานจัดซื้อและบริหารคลัง" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-boxes-stacked"></i> คลังยาและเวชภัณฑ์</a>
+            <a href="https://sites.google.com/view/phar-nayok/งานบริการ/งานผลิต" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-flask-vial"></i> งานผลิต / Extemporaneous</a>
+            <a href="https://sites.google.com/view/phar-nayok/งานบริการ/งานเภสัชสนเทศและงานวิชาการ" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-circle-info"></i> งานเภสัชสนเทศ (DIS)</a>
+          </div>
+        </div>
+
+        <!-- 4. ความรู้และวิชาการยา -->
+        <div class="nav-item has-dropdown">
+          <button type="button" class="nav-btn" aria-expanded="false">
+            <i class="fa-solid fa-book-medical"></i>
+            <span>ความรู้และวิชาการยา</span>
+            <i class="fa-solid fa-chevron-down caret-icon"></i>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-laptop-medical"></i> ศูนย์เภสัชสนเทศ & ฐานข้อมูลยา (DIS)</a>
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-prescription"></i> การใช้ยาอย่างสมเหตุผล (RDU)</a>
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-shield-virus"></i> การจัดการเชื้อดื้อยา (AMR)</a>
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-circle-question"></i> ตอบคำถามด้านยา (Drug Q&A)</a>
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-graduation-cap"></i> วิชาการต่อเนื่อง (CPE Corner)</a>
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-triangle-exclamation"></i> Medication Errors</a>
+          </div>
+        </div>
+
+        <!-- 5. KPI และผลงาน -->
+        <div class="nav-item has-dropdown">
+          <button type="button" class="nav-btn" aria-expanded="false">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>KPI และผลงาน</span>
+            <i class="fa-solid fa-chevron-down caret-icon"></i>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-chart-pie"></i> ตัวชี้วัดระบบยา (KPIs)</a>
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-award"></i> ผลงานที่ภาคภูมิใจ / HA</a>
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-microscope"></i> งานวิจัย / R2R</a>
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-trophy"></i> รางวัลและเกียรติบัตร</a>
+          </div>
+        </div>
+
+        <!-- 6. เอกสารและแบบฟอร์ม -->
+        <div class="nav-item has-dropdown">
+          <button type="button" class="nav-btn" aria-expanded="false">
+            <i class="fa-solid fa-folder-open"></i>
+            <span>เอกสารและแบบฟอร์ม</span>
+            <i class="fa-solid fa-chevron-down caret-icon"></i>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-file-shield"></i> ระเบียบปฏิบัติงาน (SOP)</a>
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-book"></i> คู่มือยาความเสี่ยงสูง (HAD)</a>
+            <a href="https://sites.google.com/view/pharmnayok" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-file-lines"></i> แบบฟอร์มขออนุมัติ & รายงาน</a>
+          </div>
+        </div>
+
+        <!-- 7. กิจกรรมและข่าว -->
+        <div class="nav-item has-dropdown">
+          <button type="button" class="nav-btn" aria-expanded="false">
+            <i class="fa-solid fa-images"></i>
+            <span>กิจกรรมและข่าว</span>
+            <i class="fa-solid fa-chevron-down caret-icon"></i>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="#announcementsSection" class="dropdown-link"><i class="fa-solid fa-newspaper"></i> ข่าวสารประชาสัมพันธ์</a>
+            <a href="https://sites.google.com/view/pharmnayok-news" target="_blank" rel="noopener noreferrer" class="dropdown-link"><i class="fa-solid fa-camera-retro"></i> อัลบั้มภาพกิจกรรม แยกตามปี</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <main class="container" style="flex: 1;">
+    
+    <!-- Hero Section: Banner ขยายใหญ่เต็มพื้นที่ -->
+    <section class="hero-section" id="top">
+      <div class="hero-banner-frame">
+        <img src="assets/images/banner.png" alt="แบนเนอร์กลุ่มงานเภสัชกรรม โรงพยาบาลนครนายก" class="hero-banner-full-img">
+      </div>
+    </section>
+
+    <!-- 1. วิสัยทัศน์ พันธกิจ กลุ่มงาน -->
+    <section class="vision-mission-section" id="visionMissionSection">
+      <div class="vision-mission-card">
+        <div class="vm-header">
+          <h3 class="vm-title">
+            <i class="fa-solid fa-bullhorn" style="color: var(--primary);"></i> 1. วิสัยทัศน์ & พันธกิจ (Vision & Mission)
+          </h3>
+          <span class="vm-badge">
+            <i class="fa-solid fa-star"></i> อัตลักษณ์และนโยบายคุณภาพ
+          </span>
+        </div>
+        <div class="vm-grid">
+          
+          <!-- กล่องวิสัยทัศน์ -->
+          <div class="vm-box vision-box">
+            <div class="vm-icon">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+            <div class="vm-content">
+              <h4>วิสัยทัศน์ (Vision)</h4>
+              <p class="vm-quote">"ให้บริการเรื่องยาด้วยคุณภาพ ทันสมัย ได้มาตรฐาน"</p>
+            </div>
+          </div>
+
+          <!-- กล่องพันธกิจ -->
+          <div class="vm-box mission-box">
+            <div class="vm-icon">
+              <i class="fa-solid fa-compass"></i>
+            </div>
+            <div class="vm-content">
+              <h4>พันธกิจ (Mission)</h4>
+              <p>บริการด้านยาตามมาตรฐานวิชาชีพ เพื่อให้ยามีคุณภาพ เพียงพอ พร้อมใช้ และผู้ป่วยมีความปลอดภัยจากการใช้ยา</p>
+            </div>
+          </div>
+
+          <!-- กล่องเป้าหมาย & เข็มมุ่ง -->
+          <div class="vm-box goal-box">
+            <div class="vm-icon">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <div class="vm-content">
+              <h4>เป้าหมาย & เข็มมุ่ง (Goals)</h4>
+              <p>1.Medication Safety ทุกกระบวนการ 2.ลดระยะเวลารอคอยการรับบริการ 3.เพิ่มความพึงพอใจของผู้รับบริการ (RDU)</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. โครงสร้างกลุ่มงานเภสัชกรรม (ตามแผนภูมิการแบ่งงาน รพ.นครนายก) -->
+    <section class="structure-section" id="structureSection">
+      <div class="org-chart-wrapper">
+        
+        <!-- Org Chart Main Header -->
+        <div class="org-chart-header">
+          <p class="org-chart-subheadline">
+            <i class="fa-solid fa-sitemap"></i> สายงานเภสัชกรรม • โรงพยาบาลนครนายก
+          </p>
+          <h3 class="org-chart-main-title">
+            แผนภูมิแสดงการแบ่งงานของกลุ่มงานเภสัชกรรม โรงพยาบาลนครนายก
+          </h3>
+        </div>
+
+        <!-- Org Tree Root Node -->
+        <div class="org-chart-tree-root">
+          <div class="org-root-node">
+            <span class="org-root-badge"><i class="fa-solid fa-hospital"></i> ผู้บริหารสายงาน</span>
+            <span class="org-root-title">กลุ่มงานเภสัชกรรม</span>
+          </div>
+          <div class="org-root-stem"></div>
+        </div>
+
+        <!-- Horizontal Connecting Trunk (Desktop) -->
+        <div class="org-tree-trunk"></div>
+
+        <!-- 5 Columns Org Grid -->
+        <div class="org-columns-grid">
+
+          <!-- 1. งานบริการ/บริบาลผู้ป่วยนอก -->
+          <div class="org-col-card org-col-1">
+            <div class="org-col-header">
+              <div class="org-col-icon"><i class="fa-solid fa-hospital-user"></i></div>
+              <h4 class="org-col-title">งานบริการ/บริบาลเภสัชกรรม<br>ผู้ป่วยนอก งานเภสัชกรรมปฐมภูมิ<br>และงานวิจัยพัฒนา</h4>
+              <span class="org-col-badge">14 ภารกิจ</span>
+            </div>
+            <div class="org-col-body">
+              <div class="org-subtask-title"><i class="fa-solid fa-list-check"></i> ประกอบด้วยงาน ดังนี้</div>
+              <ul class="org-subtask-list">
+                <li>งานประเมินคำสั่งใช้ยาและส่งมอบยาผู้ป่วยนอก</li>
+                <li>งานให้คำปรึกษาด้านยา</li>
+                <li>งานติดตามปัญหาการใช้ยา</li>
+                <li>งานติดตามอาการอันไม่พึงประสงค์จากยา</li>
+                <li>งานเฝ้าระวัง ตรวจสอบและแก้ไขความคลาดเคลื่อนทางยา</li>
+                <li>งานเฝ้าระวังยาที่มีความเสี่ยงสูงและปฏิกิริยาระหว่างยา</li>
+                <li>งานบริบาลเภสัชกรรมในคลินิกพิเศษ</li>
+                <li>งานประเมินการและการติดตามผลการใช้ยา</li>
+                <li>งานตรวจสอบและกำกับดูแลยาสำรองในห้องตรวจ</li>
+                <li>งานวิชาการ</li>
+                <li>งานวิจัยและพัฒนาระบบยาและเภสัชกรรม</li>
+                <li>งานฝึกสอนนักศึกษา</li>
+                <li>งานเยี่ยมบ้าน</li>
+                <li>งานเภสัชกรรมทางไกล (Telepharmacy)</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 2. งานบริการ/บริบาลผู้ป่วยใน -->
+          <div class="org-col-card org-col-2">
+            <div class="org-col-header">
+              <div class="org-col-icon"><i class="fa-solid fa-bed-pulse"></i></div>
+              <h4 class="org-col-title">งานบริการ/บริบาลเภสัชกรรม<br>ผู้ป่วยในและงานวิจัยพัฒนา</h4>
+              <span class="org-col-badge">11 ภารกิจ</span>
+            </div>
+            <div class="org-col-body">
+              <div class="org-subtask-title"><i class="fa-solid fa-list-check"></i> ประกอบด้วยงาน ดังนี้</div>
+              <ul class="org-subtask-list">
+                <li>งานประเมินคำสั่งใช้ยาและส่งมอบยาผู้ป่วยใน</li>
+                <li>งานให้คำปรึกษาด้านยาแก่ผู้ป่วยก่อนกลับบ้าน</li>
+                <li>งานติดตามปัญหาการใช้ยา</li>
+                <li>งานติดตามอาการอันไม่พึงประสงค์จากยา</li>
+                <li>งานเฝ้าระวัง ตรวจสอบและแก้ไขความคลาดเคลื่อนทางยา</li>
+                <li>งานเฝ้าระวังยาที่มีความเสี่ยงสูงและปฏิกิริยาระหว่างยา</li>
+                <li>งานบริบาลเภสัชกรรมบนหอผู้ป่วย</li>
+                <li>งานตรวจสอบและกำกับดูแลยาสำรองในหอผู้ป่วย</li>
+                <li>งานวิชาการ</li>
+                <li>งานวิจัยและพัฒนาระบบยาและเภสัชกรรม</li>
+                <li>งานฝึกสอนนักศึกษา</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 3. งานบริการเภสัชสนเทศ -->
+          <div class="org-col-card org-col-3">
+            <div class="org-col-header">
+              <div class="org-col-icon"><i class="fa-solid fa-laptop-medical"></i></div>
+              <h4 class="org-col-title">งานบริการเภสัชสนเทศ<br>และงานวิจัยพัฒนา</h4>
+              <span class="org-col-badge">7 ภารกิจ</span>
+            </div>
+            <div class="org-col-body">
+              <div class="org-subtask-title"><i class="fa-solid fa-list-check"></i> ประกอบด้วยงาน ดังนี้</div>
+              <ul class="org-subtask-list">
+                <li>งานบริการข้อมูลข่าวสารด้านยา : บริการตอบคำถามเรื่องยาและให้ข้อมูลด้านยาเชิงรุกแก่บุคลากรและผู้มารับบริการ</li>
+                <li>เอกสารวิชาการด้านยา</li>
+                <li>พัฒนาคุณภาพระบบยาและเชื่อมโยงกับหน่วยงานในรพ.</li>
+                <li>รวบรวมข้อมูลสำคัญของระบบยาและกลุ่มงานเภสัชกรรม</li>
+                <li>สนับสนุนงานวิชาการและการจัดการความรู้</li>
+                <li>งานวิจัยและพัฒนาระบบยาและเภสัชกรรม</li>
+                <li>งานฝึกสอนนักศึกษา</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 4. งานจัดซื้อ-จัดหาเวชภัณฑ์ -->
+          <div class="org-col-card org-col-4">
+            <div class="org-col-header">
+              <div class="org-col-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
+              <h4 class="org-col-title">งานจัดซื้อ-จัดหา<br>เวชภัณฑ์และงานวิจัย<br>พัฒนา</h4>
+              <span class="org-col-badge">8 ภารกิจ</span>
+            </div>
+            <div class="org-col-body">
+              <div class="org-subtask-title"><i class="fa-solid fa-list-check"></i> ประกอบด้วยงาน ดังนี้</div>
+              <ul class="org-subtask-list">
+                <li>งานจัดระบบบริหารและจัดการยาและเวชภัณฑ์</li>
+                <li>งานคัดเลือกยา/จัดซื้อจัดหา</li>
+                <li>งานควบคุม/เก็บรักษา</li>
+                <li>การเบิก-จ่าย</li>
+                <li>ระบบรายงาน</li>
+                <li>งานวิจัยและพัฒนาระบบยาและเภสัชกรรม</li>
+                <li>งานฝึกสอนนักศึกษา</li>
+                <li>งานสนับสนุนหน่วยงานปฐมภูมิ</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 5. งานผลิต -->
+          <div class="org-col-card org-col-5">
+            <div class="org-col-header">
+              <div class="org-col-icon"><i class="fa-solid fa-flask-vial"></i></div>
+              <h4 class="org-col-title">งานผลิตและ<br>งานวิจัยพัฒนา</h4>
+              <span class="org-col-badge">4 ภารกิจ</span>
+            </div>
+            <div class="org-col-body">
+              <div class="org-subtask-title"><i class="fa-solid fa-list-check"></i> ประกอบด้วยงาน ดังนี้</div>
+              <ul class="org-subtask-list">
+                <li>งานผลิตยา</li>
+                <li>ประกันคุณภาพยา</li>
+                <li>งานวิจัยและพัฒนาระบบยาและเภสัชกรรม</li>
+                <li>งานฝึกสอนนักศึกษา</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. นโยบายด้านยา (Google Drive PDF Link & Viewer) -->
+    <section class="policy-section" id="policySection">
+      <div class="policy-pdf-card">
+        
+        <div class="vm-header" style="border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem; margin-bottom: 1.25rem;">
+          <h3 class="vm-title">
+            <i class="fa-solid fa-file-pdf" style="color: #dc2626;"></i> 3. นโยบายด้านยา (Hospital Medication Policy)
+          </h3>
+          <span class="vm-badge" style="background-color: #fef2f2; color: #dc2626; border-color: #fecaca;">
+            <i class="fa-solid fa-shield-halved"></i> เอกสารนโยบายระบบยา รพ.นครนายก
+          </span>
+        </div>
+
+        <!-- Action Banner with direct link to Google Drive PDF -->
+        <div class="policy-action-banner">
+          <div class="policy-action-info">
+            <div class="policy-action-icon">
+              <i class="fa-solid fa-file-pdf"></i>
+            </div>
+            <div class="policy-action-text">
+              <h4>เอกสารนโยบายและแนวทางปฏิบัติด้านยา โรงพยาบาลนครนายก</h4>
+              <p>กรอบนโยบายความปลอดภัยระบบยา การใช้ยาอย่างสมเหตุผล (RDU) และมาตรฐานทางเภสัชกรรม ฉบับสมบูรณ์ (PDF)</p>
+            </div>
+          </div>
+          <a href="https://drive.google.com/file/d/1xhbEbqDLaXA_XbUzaGKF7jjjQOlh0QD3/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn-open-pdf">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span>เปิดดูเอกสารใน Google Drive</span>
+            <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8rem;"></i>
+          </a>
+        </div>
+
+        <!-- Embedded Interactive PDF Viewer via Google Drive Preview -->
+        <div class="pdf-viewer-frame-container">
+          <iframe 
+            src="https://drive.google.com/file/d/1xhbEbqDLaXA_XbUzaGKF7jjjQOlh0QD3/preview" 
+            class="pdf-viewer-frame" 
+            title="เอกสารนโยบายด้านยา โรงพยาบาลนครนายก" 
+            allow="autoplay">
+          </iframe>
+        </div>
+
+        <!-- Footer helper note -->
+        <div class="pdf-viewer-footer-note">
+          <i class="fa-solid fa-circle-info"></i>
+          <span>สามารถเลื่อนดูเนื้อหาในเอกสารด้านบน หรือกดปุ่ม "เปิดดูเอกสารใน Google Drive" เพื่อดาวน์โหลดและพิมพ์เอกสารค่ะ</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. ประกาศ/ข่าวสาร (โหลดข้อมูลสดจาก Google Sheets CSV) -->
+    <section class="portal-section" id="announcementsSection" style="margin-bottom: 2rem;">
+      <div class="section-header">
+        <h3 class="section-title">
+          <i class="fa-solid fa-bullhorn" style="color: #0d6970;"></i> 4. ประกาศ & ข่าวสารระบบยา (Announcements & News)
+        </h3>
+        <a href="https://sites.google.com/view/pharmnayok-news" target="_blank" rel="noopener noreferrer" class="category-btn" id="allAnnouncementsLink" style="font-size: 0.82rem; padding: 0.35rem 0.85rem;">
+          <span>ดูประกาศทั้งหมดบน Google Sites</span>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+      <div class="announcements-grid" id="announcementsContainer">
+        <!-- โหลดข้อมูลประกาศอัตโนมัติจาก Google Sheets CSV โดย js/app.js -->
+        <div class="announcements-fallback-box" style="grid-column: 1 / -1;">
+          <p><i class="fa-solid fa-spinner fa-spin"></i> กำลังโหลดข้อมูลประกาศล่าสุดจาก Google Sheets...</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 5. Footer (กล่องด้านล่างติดต่อเรา ตามเดิม) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col" id="footerInfo">
+          <h4><i class="fa-solid fa-hospital-user"></i> กลุ่มงานเภสัชกรรม โรงพยาบาลนครนายก</h4>
+          <p>
+            บริการด้านยาเพื่อให้มียาคุณภาพ เพียงพอ พร้อมใช้ ใช้ยาเหมาะสม และผู้ป่วยปลอดภัย
+          </p>
+          <p style="font-size: 0.8rem; color: #94a3b8;">
+            <i class="fa-solid fa-location-dot" style="color: var(--accent-amber);"></i> 
+            โรงพยาบาลนครนายก เลขที่ 1-100 ถ.สุวรรณศร ต.นครนายก อ.เมือง จ.นครนายก 26000
+          </p>
+        </div>
+
+        <div class="footer-col" id="footerContact">
+          <h4><i class="fa-solid fa-phone-volume"></i> เบอร์โทรศัพท์ภายใน</h4>
+          <ul class="footer-contact-list">
+            <li><i class="fa-solid fa-phone"></i> ห้องจ่ายยาผู้ป่วยนอก: <strong>ต่อ 324, 325</strong></li>
+            <li><i class="fa-solid fa-phone"></i> ห้องจ่ายยาผู้ป่วยใน: <strong>ต่อ 122</strong></li>
+            <li><i class="fa-solid fa-phone"></i> คลังยาและเวชภัณฑ์: <strong>ต่อ 220, 227</strong></li>
+            <li><i class="fa-solid fa-phone"></i> ห้องผสมยาเคมีบำบัด: <strong>ต่อ 116</strong></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4><i class="fa-solid fa-circle-info"></i> ข้อมูลระบบยา</h4>
+          <p>• บริการระบบสารสนเทศและการส่งต่อข้อมูลเพื่อบุคลากรทางการแพทย์</p>
+          <p>• สามารถใช้งานได้ทั้งบนคอมพิวเตอร์และมือถือผ่านเว็บเบราว์เซอร์ทุกชนิด</p>
+          <p>• ตรวจสอบข้อมูลยาและการใช้ยาอย่างสมเหตุผล (RDU) โรงพยาบาลนครนายก</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 กลุ่มงานเภสัชกรรม โรงพยาบาลนครนายก (Nakhon Nayok Hospital Pharmacy Department) • ปรับปรุงล่าสุด 2 พฤศจิกายน 2569</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top Button -->
+  <button type="button" id="backToTopBtn" class="back-to-top" title="กลับขึ้นด้านบน" aria-label="กลับขึ้นด้านบน">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Application Configuration (Google Sheets CSV URL) -->
+  <script src="js/config.js"></script>
+  <!-- Application Logic -->
+  <script src="js/app.js"></script>
+</body>
+</html>
